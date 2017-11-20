@@ -5,11 +5,9 @@ import java.util.*;
 // Задача 2057 с http://acm.sgu.ru/lang/
 public class Solution {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         int numberOfOperations = scanner.nextInt();
 
-//        List<Integer> list = new ArrayList<>();
         Queue<Integer> elements = new PriorityQueue<>();
         for (int i = 0; i < numberOfOperations; i++) {
             int operation = scanner.nextInt();
